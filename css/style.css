@@ -1,0 +1,479 @@
+/* Body Styling */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.background-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../Img/pexels-cookiecutter-1148820.jpg') no-repeat center center/cover;
+  filter: blur(8px);
+  z-index: -1; /* Send it behind the text */
+}
+
+/* Logo & Branding styling*/
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  background: #0d47a1;
+  color: white;
+}
+
+.logo img {
+  margin-right: 15px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation Bar Styling */
+header {
+  background: #1976d2;
+}
+
+nav ul {
+  list-style: none; 
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+nav ul li {
+ 
+   border-radius: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ;
+}
+
+nav ul li a:hover {
+  background-color: #00295c; 
+}
+
+/* Main Section Styling */
+main {
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+main h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+main p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Clients Section Styling */
+h3 {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.Clients {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.Clients figure {
+  background: rgb(21, 106, 176);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.Clients figure:hover {
+  transform: translateY(-5px);
+}
+
+.Clients figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Client-content { 
+  padding: 2px;
+  color: rgb(11, 3, 3);
+}
+
+
+/* services Styling 1 */
+.our-services {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 28px;
+  color: #0d47a1;
+}
+.Services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* service card */
+.wrapper {
+    background: linear-gradient(to bottom, #e6f0ff, #ffffff);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 74, 173, 0.3);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.wrapper:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 74, 173, 0.5);
+}
+
+/* Images */
+.wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #004aad;
+}
+
+/* Figcaption and link */
+.wrapper figcaption {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.wrapper figcaption a {
+    color: #1a3d7c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.wrapper figcaption a:hover {
+    color: #17cbfd;
+}
+
+/* Services Section Styling 2 */
+.services-section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.services-section h1 {
+  font-size: 2.5rem;
+  color: #0a3d62;
+  margin-bottom: 1rem;
+}
+
+.services-section .intro {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  color: #333;
+}
+
+/* Grid Layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-card i {
+  font-size: 2.5rem;
+  color: #1e90ff;
+  margin-bottom: 1rem;
+}
+
+.service-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #0a3d62;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Footer Styling */
+footer {
+  background: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffca28;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* Social media icons styling */
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+footer a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .logo h1 {
+    font-size: 18px;
+  }
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+}
+
+
+/* About page styling */
+.about-main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-main h1 {
+    color: #004aad;
+    margin-bottom: 10px;
+}
+
+.about-main p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #1a3d7c;
+}
+
+/* Image styling */
+.background-slider2 img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.about-main {
+    position: relative;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #e6f0ff, #ffffff);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 74, 173, 0.5);
+    overflow: hidden;
+}
+
+/* Container for about-main with chasing stars */
+.about-main {
+    position: relative;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #e6f0ff, #ffffff);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 74, 173, 0.5);
+    overflow: hidden;
+}
+
+/* Shooting star element */
+.star {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #5500ff;
+    border-radius: 50%;
+    animation: chase 9s linear infinite;
+}
+
+/* Create multiple stars with different delays */
+.star:nth-child(2) { animation-delay: 1s; }
+.star:nth-child(3) { animation-delay: 2s; }
+.star:nth-child(4) { animation-delay: 3s; }
+.star:nth-child(5) { animation-delay: 4s; }
+.star:nth-child(6) { animation-delay: 5s; }
+.star:nth-child(7) { animation-delay: 6s; }
+.star:nth-child(8) { animation-delay: 7s; }
+/* Animate stars around the box border */
+@keyframes chase {
+    0% { top: 0; left: 0; }
+    25% { top: 0; left: calc(100% - 6px); }
+    50% { top: calc(100% - 6px); left: calc(100% - 6px); }
+    75% { top: calc(100% - 6px); left: 0; }
+    100% { top: 0; left: 0; }
+  
+}
+
+/* Blog styling */
+.form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #0d47a1;
+}
+input,
+textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #bbdefb;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+input:focus,
+textarea:focus {
+  border: 2px solid #1976d2;
+}
+textarea {
+  min-height: 10px;
+  resize: vertical;
+}
+
+/* Submit Button */
+button {
+  background: #1976d2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #cb0606;
+}
+
+/* Map */
+iframe {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+/* Blog Container */
+.blog-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-container h1 {
+  font-size: 2.2rem;
+  color: #0a3d62;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.blog-container .intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.4rem;
+  color: #0a3d62;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+section h2 i {
+  margin-right: 10px;
+  color: #1e90ff;
+}
+
+section p {
+  color: #444;
+  font-size: 1rem;
+}
+
