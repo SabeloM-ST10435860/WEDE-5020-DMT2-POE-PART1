@@ -1,4 +1,4 @@
-# WEDE-5020-POE-PART1
+# WEDE-5020-POE
 ## Muianga Maqor (Pty) Ltd   
 Is a tech company that provides cloud services such as cloud migration, cloud security, managed 
 cloud services, and hybrid cloud integration solutions.  
@@ -26,6 +26,9 @@ and society.
 • Large enterprises that need advanced cloud infrastructure,   
 • Government or NGOs in need of safe and reliable cloud services (IETF, 2020).  
 
+## Clients
+At Muianga Maqor, we work with a wide range of clients who share one vision — using technology to achieve growth, security, and innovation. We support SMEs looking for affordable yet powerful IT services, large enterprises that need advanced multi-cloud and security solutions, and government departments/NGOs that require safe and compliant technology. We also partner with startups and innovators, helping them scale with flexible cloud platforms, as well as international businesses expanding into Africa and beyond. Our clients trust us because we combine cutting-edge technology with a commitment to long-term partnerships, ensuring solutions that are reliable, secure, and built for the future.
+
 ## Website Goals and Objectives  
 • Promote the organization as a Brand – Build an online presence and showcase Muianga 
 Maqor as a trusted leader in cloud solutions (Device42, 2025; TechGrid, 2025).  
@@ -42,7 +45,8 @@ Home Page - Contains company overview and highlights.
 About Us - Page Provides history, vision, and team details.  
 Services Page - Contains our services which is cloud migration, cloud security, managed services, 
 hybrid cloud.  
-Contact Page - Contains inquiry form, email, Social Media platforms phone, and address 
+Contact Page - Contains inquiry form, email, Social Media platforms phone, and address
+Blog page - Contains articles about the latest tech trends
 
 ## DESIGN AND USER EXPERIENCE  
 The website is responsive, and the layout will ensure that visitors can easily navigate through web 
@@ -82,6 +86,10 @@ Week 7: Launching and Training phase
 The complete website is deployed to a live server and accessible to customers and the public. 
 Administrators and other team members are trained to manage and update the web page content 
 when needed (Laudon & Laudon, 2020). 
+
+## Website Screensize on different devices
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6127309f-2efa-4af3-ab24-e05e7cf83c76" />
+
 
 ## REFERENCES  
 Pressman, R.S., 2015. Software Engineering: A Practitioner’s Approach. 8th ed. New York:  
